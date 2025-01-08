@@ -9,8 +9,7 @@ public class Spring66JdbcExampleApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(Spring66JdbcExampleApplication.class, args);
-        Category category = new Category();
-        category.getId();
+
     }
 
 }

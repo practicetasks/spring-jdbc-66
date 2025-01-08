@@ -1,12 +1,10 @@
-package com.practice.spring66jdbcexample.dao;
+package com.practice.spring66jdbcexample.dao.impl;
 
+import com.practice.spring66jdbcexample.dao.CategoryDao;
 import com.practice.spring66jdbcexample.model.Category;
 import lombok.RequiredArgsConstructor;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
-import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Component;
 
 import java.sql.ResultSet;
